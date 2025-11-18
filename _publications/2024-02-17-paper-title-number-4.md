@@ -12,4 +12,19 @@ paperurl: 'http://YoshiyaYokomoto.github.io/files/Yokomoto_draft_10.pdf'
 #citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
-This paper introduces a novel solution method for heterogeneous firm models with aggregate uncertainty that significantly reduces computational time while maintaining solution accuracy. The core innovation involves approximating the policy function with a neural network that includes the equilibrium price as a state variable. This strategy directly tackles the fundamental computational bottleneck of repeated market-clearing equilibrium price calculations during simulation, leveraging the neural network's ability to handle the resulting high-dimensional state space and overcome the curse of dimensionality. Applied to seminal models in the literature, including Khan and Thomas (2008) and Bloom et al. (2018), this approach achieves speed improvements of up to 50x. By maintaining the skeleton of established solution techniques while replacing key components with neural network approximations, my approach remains transparent and accessible to researchers already familiar with standard heterogeneous agent modeling techniques, opening new possibilities for analyzing complex firm dynamics with realistic computational resources.
+This paper proposes a novel global solution method that sharply reduces the computational
+burden of heterogeneous agent models with aggregate uncertainty, where market prices are de-
+termined implicitly. The main bottleneck in such models is the repeated search for the market-
+clearing equilibrium price within each simulation period. To overcome this issue, the core of
+the method is to approximate the policy function with neural networks that incorporates the
+equilibrium price as a state variable. Once trained, this price-conditional policy function elim-
+inates the need for repeated optimization during equilibrium searches, directly resolving the
+bottleneck. In addition, the neural network approach mitigates the curse of dimensionality
+from an expanded state space and is flexible enough to handle non-smooth policy functions,
+such as (S-s) rules arising from fixed adjustment costs.
+Applying the method to the models of Khan and Thomas (2008) and Bloom et al. (2018)
+demonstrates substantial improvements in speed while preserving accuracy. For example, the
+Bloom et al. (2018) model, which requires six days under the Krusell-Smith method, can be
+solved in just 59 minutes. A further advantage is that the method preserves the skeleton of
+existing solution techniques like the Krusell-Smith algorithm, making it straightforward for
+researchers to understand and implement.
