@@ -1,5 +1,5 @@
 ---
-title: "Fast Global Solutions for Heterogeneous Firm Models Using Deep Learning"
+title: "A Fast Deep Learning Solution for Market Clearing in Heterogeneous Agent Models"
 collection: publications
 category: working_paper
 #permalink: /publication/2024-02-17-paper-title-number-4
@@ -8,7 +8,7 @@ date: 2025-04-02
 #published: false
 show_date: false
 #venue: 'GitHub Journal of Bugs'
-paperurl: 'http://YoshiyaYokomoto.github.io/files/Deep_learning_HFM.pdf'
+paperurl: 'http://YoshiyaYokomoto.github.io/files/Yokomoto_draft_10.pdf'
 #citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
