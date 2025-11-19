@@ -13,7 +13,7 @@ I am currently a second-year master's student at Keio University.
 
 ## My Interests
 
-- **Behavioral Macroeconomics**
+- **Macroeconomics**
+- **Deep Learning**
 - **Numerical Solution**
-- **Machine Learning**
 
