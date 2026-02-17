@@ -4,7 +4,7 @@ collection: publications
 category: working_paper
 #permalink: /publication/2024-02-17-paper-title-number-4
 #excerpt: 'This paper is about fixing template issue #693.'
-date: 2026-02
+date: 2026-02-17
 #published: false
 show_date: false
 #venue: 'GitHub Journal of Bugs'
