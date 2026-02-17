@@ -13,7 +13,6 @@ I am currently a second-year master's student at Keio University.
 
 ## My Interests
 
-- **Macroeconomics**
-- **Deep Learning**
-- **Numerical Solution**
+**Macroeconomics**: Heterogeneous Agent Models, Numerical Solution, Sovereign Debt, Asset Pricing  
+**Machine Learning**: Deep Learning for Dynamic Models, Theory of Deep Learning
 
