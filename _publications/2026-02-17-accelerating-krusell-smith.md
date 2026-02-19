@@ -2,9 +2,18 @@
 title: "Accelerating the Krusell-Smith Algorithm with Deep Learning"
 collection: publications
 category: working_paper
-#permalink: /publication/2024-02-17-paper-title-number-4
-#excerpt: 'This paper is about fixing template issue #693.'
+permalink: /publication/2026-02-17-accelerating-krusell-smith
+excerpt: 'This paper accelerates the Krusell-Smith algorithm for heterogeneous agent models by leveraging deep learning to overcome computational bottlenecks.'
 date: 2026-02-17
+keywords:
+  - Krusell-Smith Algorithm
+  - Deep Learning
+  - Heterogeneous Agent Models
+  - Neural Networks
+  - Computational Economics
+  - Macroeconomics
+  - Numerical Methods
+description: "A method to accelerate the Krusell-Smith algorithm using deep learning approximations for value and policy functions, significantly reducing computation time for heterogeneous agent models."
 #published: false
 show_date: false
 #venue: 'GitHub Journal of Bugs'
