@@ -1,14 +1,23 @@
 ---
-layout: archive
-title: "Talks"
+layout: page
+title: Talks
 permalink: /talks/
 author_profile: false
 ---
 
-{% if site.talkmap_link == true %}
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-{% endif %}
+## Talks
 
-{% for post in site.talks reversed %}
-{% include archive-single-talk.html %}
-{% endfor %}
+<ul>
+    {% for talk in site.talks %}
+    <li>
+        <strong>{{ talk.date | date: "%Y-%m-%d" }}</strong>:
+        {% if talk.title and talk.title != "" %}
+        {{ talk.title }}
+        {% else %}
+        (No title)
+        {% endif %}
+        {% if talk.venue %} @ {{ talk.venue }}{% endif %}
+        {% if talk.location %} ({{ talk.location }}){% endif %}
+    </li>
+    {% endfor %}
+</ul>
