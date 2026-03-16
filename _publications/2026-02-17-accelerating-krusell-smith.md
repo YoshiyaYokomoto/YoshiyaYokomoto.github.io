@@ -17,8 +17,8 @@ description: "A method to accelerate the Krusell-Smith algorithm using deep lear
 #published: false
 show_date: false
 #venue: 'GitHub Journal of Bugs'
-paperurl: 'http://YoshiyaYokomoto.github.io/files/NN-KS_02_main.pdf'
-appendixurl: 'http://YoshiyaYokomoto.github.io/files/NN-KS_02_Appendix.pdf'
+paperurl: 'http://YoshiyaYokomoto.github.io/files/NN-KS_March_main.pdf'
+appendixurl: 'http://YoshiyaYokomoto.github.io/files/NN-KS_March_appendix.pdf'
 #citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
