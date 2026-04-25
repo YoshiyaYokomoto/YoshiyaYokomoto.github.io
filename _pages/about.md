@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am currently a second-year master's student at Keio University.
+I am currently a first-year PhD student at Keio University.
 
 ## My Interests
 
