@@ -15,6 +15,7 @@ keywords:
   - Numerical Methods
 description: "A method to accelerate the Krusell-Smith algorithm using deep learning approximations for value and policy functions, significantly reducing computation time for heterogeneous agent models."
 award: "Finalist, SCE Student Paper Award, CEF Conference"
+version_note: "Former version; a substantially revised version is in preparation."
 #published: false
 show_date: false
 #venue: 'GitHub Journal of Bugs'
