@@ -14,6 +14,7 @@ keywords:
   - Macroeconomics
   - Numerical Methods
 description: "A method to accelerate the Krusell-Smith algorithm using deep learning approximations for value and policy functions, significantly reducing computation time for heterogeneous agent models."
+award: "Finalist, SCE Student Paper Award, CEF Conference"
 #published: false
 show_date: false
 #venue: 'GitHub Journal of Bugs'

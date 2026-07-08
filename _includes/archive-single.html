@@ -63,6 +63,9 @@
     </p>
     {% endif %}
     {% elsif post.collection == 'publications' %}
+    {% if post.award and post.award | strip != "" %}
+    <p class="archive__item-excerpt"><strong>{{ post.award }}</strong></p>
+    {% endif %}
     {% if post.show_date != false and post.date and post.date | strip != "" %}
     {% if post.venue and post.venue | strip != "" %}
     <p>Published in <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
