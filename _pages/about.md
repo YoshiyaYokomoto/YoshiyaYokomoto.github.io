@@ -13,6 +13,6 @@ I am currently a first-year PhD student at Keio University.
 
 ## My Interests
 
-**Macroeconomics**: Heterogeneous Agent Models, Numerical Solution, Sovereign Debt, Asset Pricing  
+**Macroeconomics**: Heterogeneous Agent Models, Numerical Solution, Firm Dynamics<br>
 **Machine Learning**: Deep Learning for Dynamic Models, Theory of Deep Learning
 

@@ -1,0 +1,102 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Standalone version of the original resume layout; no resume.cls is required.
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={Yoshiya Yokomoto - Curriculum Vitae},
+  pdfauthor={Yoshiya Yokomoto},
+  pdfsubject={Updated October 2026}
+}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlist[enumerate]{leftmargin=1.8em,topsep=2pt,partopsep=0pt,itemsep=3pt,parsep=0pt}
+\setlist[itemize]{leftmargin=1.8em,topsep=2pt,partopsep=0pt,itemsep=2pt,parsep=0pt}
+\newenvironment{rSection}[1]{%
+  \par\addvspace{9pt}%
+  {\bfseries\MakeUppercase{#1}}\par\nobreak
+  \vspace{2pt}\hrule height 0.4pt\nobreak\vspace{4pt}%
+  \begin{list}{}{%
+    \setlength{\leftmargin}{1.5em}%
+    \setlength{\rightmargin}{0pt}%
+    \setlength{\topsep}{0pt}%
+    \setlength{\partopsep}{0pt}%
+    \setlength{\parsep}{3pt}%
+  }\item[]%
+}{\end{list}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries YOSHIYA YOKOMOTO}\\[6pt]
+  Version: October 2026\\
+  \href{https://yoshiyayokomoto.github.io}{https://yoshiyayokomoto.github.io}\\
+  \href{mailto:yoshiyayokomoto@gmail.com}{yoshiyayokomoto@gmail.com}
+\end{center}
+\vspace{-5pt}
+
+\begin{rSection}{Education}
+\textbf{Keio University} \hfill April 2026 - Present\\
+Ph.D. in Economics
+
+\textbf{Keio University} \hfill April 2024 - March 2026\\
+M.A. in Economics
+
+\textbf{Rikkyo University} \hfill April 2020 - March 2024\\
+B.A. in Economics
+\end{rSection}
+
+\begin{rSection}{Research Interests}
+\textbf{Macroeconomics:} Heterogeneous Agent Models, Numerical Solution, Firm Dynamics\\
+\textbf{Machine Learning:} Deep Learning for Dynamic Models, Theory of Deep Learning
+\end{rSection}
+
+\begin{rSection}{Working Papers}
+\begin{enumerate}
+  \item \href{https://yoshiyayokomoto.github.io/files/Acc_KS-main.pdf}{Accelerating the Krusell-Smith Method}\\
+  {\small\emph{Revised October 21, 2026. Finalist, SCE Student Paper Award, CEF Conference.}}
+\end{enumerate}
+\end{rSection}
+
+\begin{rSection}{Work in Progress}
+\begin{enumerate}
+  \item When Does Depth Matter? A Barron Space Perspective on Economic Models
+  \item Deep Surrogate Dynamic Programming for Structural Models: An Application to R\&D Investment and Tax Policy Evaluation (with Kenta Ikeuchi and Kei Hirano)
+\end{enumerate}
+\end{rSection}
+
+\begin{rSection}{Research Assistant Experience}
+\textbf{Research Assistant for Tatsuro Senga} \hfill August 2024 - August 2025
+
+\textbf{Research Assistant for Ippei Fujiwara and Shinnosuke Kikuchi} \hfill May 2025 - November 2025\\
+Project at RIETI
+
+\textbf{Research Assistant for Kenta Ikeuchi} \hfill October 2025 - Present\\
+Project at RIETI
+\end{rSection}
+
+\begin{rSection}{Teaching Assistant}
+Macroeconomics I-2 (Yi Fangyuan) \hfill 2025, 2026
+\end{rSection}
+
+\begin{rSection}{Presentations}
+\begin{itemize}
+  \item 2026: Macroeconomics Workshop, Waseda University (Tokyo, Japan; scheduled for October 26)
+  \item 2026: SMLE Annual Conference: Machine Learning in Economics (Beijing, China)
+  \item 2026: 32nd International Conference on Computing in Economics and Finance (Venice, Italy)
+  \item 2025: Deep Learning for Dynamic Stochastic Models Conference (Turin, Italy)
+  \item 2025: Workshop at Yonsei University (Seoul, Korea)
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Skills}
+\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l}
+Programming & Python (PyTorch), Fortran, CUDA, MATLAB, Julia, Stata\\
+Languages & Japanese (Native), English (Fluent)
+\end{tabular}
+\end{rSection}
+
+\end{document}
